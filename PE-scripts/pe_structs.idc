@@ -216,7 +216,7 @@ static LPEStruct()
   AddStrucMember(sHandle,   "import_table_RVA",    0x80, FF_DWRD, -1, 4);
   AddStrucMember(sHandle,   "import_table_size",   0x84, FF_DWRD, -1, 4);
 
-  AddStrucMember(sHandle,   "resource_table_RVA"   0x88, FF_DWRD, -1, 4);
+  AddStrucMember(sHandle,   "resource_table_RVA",  0x88, FF_DWRD, -1, 4);
   AddStrucMember(sHandle,   "resource_table_size", 0x8c, FF_DWRD, -1, 4);
 
   AddStrucMember(sHandle,   "exception_table_RVA", 0x90, FF_DWRD, -1, 4);
@@ -352,7 +352,7 @@ static LPEOpt()
   AddStrucMember(sHandle,   "import_table_RVA",    0x68, FF_DWRD, -1, 4);
   AddStrucMember(sHandle,   "import_table_size",   0x6c, FF_DWRD, -1, 4);
 
-  AddStrucMember(sHandle,   "resource_table_RVA"   0x70, FF_DWRD, -1, 4);
+  AddStrucMember(sHandle,   "resource_table_RVA",  0x70, FF_DWRD, -1, 4);
   AddStrucMember(sHandle,   "resource_table_size", 0x74, FF_DWRD, -1, 4);
 
   AddStrucMember(sHandle,   "exception_table_RVA", 0x78, FF_DWRD, -1, 4);
@@ -455,7 +455,7 @@ static LExportStructs()
 
   AddStrucMember(sHandle, "export_flags",           0x00, FF_DWRD, -1, 4);
   AddStrucMember(sHandle, "time_date_samp",         0x04, FF_DWRD, -1, 4);
-  AddStrucMember(sHandle, "version"                 0x08, FF_DWRD, -1, 4);
+  AddStrucMember(sHandle, "version",                0x08, FF_DWRD, -1, 4);
   AddStrucMember(sHandle, "name",                   0x0c, FF_DWRD, -1, 4);
   AddStrucMember(sHandle, "ordinal_base",           0x10, FF_DWRD, -1, 4);
   AddStrucMember(sHandle, "address_table_count",    0x14, FF_DWRD, -1, 4);
